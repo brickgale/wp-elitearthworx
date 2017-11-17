@@ -12,7 +12,7 @@
 		if ( ! isset( $content_width ) ) $content_width = 640;
 		
 		register_nav_menus([
-			'main-menu' => __( 'Main Menu', 'customtheme' ) )
+			'main-menu' => __( 'Main Menu', 'customtheme' ) 
 		]);
 	}
 
