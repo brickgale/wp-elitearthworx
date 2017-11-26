@@ -56,7 +56,13 @@ header {
 	width: 100%;
 }
 
+#header {
+	display: flex;
+	justify-content: center;
+}
+
 .header-con {
 	max-width: 1000px;
+	width: 100%;
 	padding: 20px;
 }

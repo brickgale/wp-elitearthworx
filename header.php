@@ -10,12 +10,12 @@
 		<div id="wrapper" class="hfeed">
 
 			<header id="header" role="banner">
-				<div class="header-con">
-					<section id="branding">
+				<div  class="row" class="header-con">
+					<section id="branding" class="col-xs-12 col-sm-4">
 						<div id="site-title">
 							<?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '<h1>'; } ?><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a><?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1>'; } ?>
 						</div>
-						<div id="site-description">
+						<div id="site-description" class="col-xs-12 col-sm-8">
 							<?php bloginfo( 'description' ); ?>
 						</div>
 					</section>
