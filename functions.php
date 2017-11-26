@@ -20,7 +20,7 @@
 	add_action( 'wp_enqueue_styles', 'customtheme_load_styles' );
 
 	function customtheme_load_scripts() {
-		wp_enqueue_style( 'flexboxgrid', '/css/flexboxgrid.min.css' );
+		wp_enqueue_style( 'flexboxgrid', get_stylesheet_uri().'/css/flexboxgrid.min.css' );
 		wp_enqueue_script( 'jquery' );
 	}
 
