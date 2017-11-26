@@ -17,9 +17,14 @@
 	}
 
 	add_action( 'wp_enqueue_scripts', 'customtheme_load_scripts' );
+	add_action( 'wp_enqueue_styles', 'customtheme_load_styles' );
 
 	function customtheme_load_scripts() {
 		wp_enqueue_script( 'jquery' );
+	}
+
+	function customtheme_load_styles() {
+		wp_enqueue_style( 'flexboxgrid', get_template_directory_uri(). '/css/flexboxgrid.min.css' );
 	}
 
 	add_action( 'comment_form_before', 'customtheme_enqueue_comment_reply_script' );
