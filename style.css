@@ -22,8 +22,10 @@ CustomTheme WordPress Theme © 2017 Elite Earthworks
 
 body {
 	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
 	height: 100%;
-	font-size: 12px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	line-height: 1.5em;
