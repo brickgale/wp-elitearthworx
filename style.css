@@ -65,7 +65,7 @@ header {
 	color: #fff;
 }
 
-.header-con {
+#header .header-con {
 	max-width: 1000px;
 	width: 100%;
 	padding: 20px;
@@ -73,4 +73,15 @@ header {
 
 #header a {
 	color: inherit;
+}
+
+#header #menu ul.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#header #menu ul.menu li a {
+	display: flex;
+	margin-left: 20px;
 }
