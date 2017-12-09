@@ -12,7 +12,9 @@
 			<div class="header-con row bottom-xs bottom-sm">
 				<section id="branding" class="col-xs-12 col-sm-4">
 					<div id="site-title">
-						<?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '<h1>'; } ?><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a><?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1>'; } ?>
+						
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><h1><?php echo esc_html( get_bloginfo( 'name' ) ); ?></h1></a>
+
 					</div>
 					<div id="site-description">
 						<?php bloginfo( 'description' ); ?>
