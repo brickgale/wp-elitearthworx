@@ -65,7 +65,7 @@ header {
 	color: #fff;
 }
 
-#header .header-con, #footer .footer-con {
+#header .header-con, #footer .footer-con, #container .page-con {
 	max-width: 1000px;
 	width: 100%;
 	padding: 20px;
