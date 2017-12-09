@@ -58,14 +58,14 @@ header {
 	width: 100%;
 }
 
-#header {
+#header, #footer {
 	display: flex;
 	justify-content: center;
 	background: #2b2828;
 	color: #fff;
 }
 
-#header .header-con {
+#header .header-con, #footer .footer-con {
 	max-width: 1000px;
 	width: 100%;
 	padding: 20px;
