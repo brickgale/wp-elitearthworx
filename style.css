@@ -65,6 +65,11 @@ header {
 	color: #fff;
 }
 
+#container {
+	display: flex;
+	justify-content: center;
+}
+
 #header .header-con, #footer .footer-con, #container .page-con {
 	max-width: 1000px;
 	width: 100%;
