@@ -90,3 +90,9 @@ header {
 	display: flex;
 	margin-left: 20px;
 }
+
+.row.items > div[class*="col-"] .img-wrap {
+	display: flex;
+	max-height: 200px;
+	overflow: hidden;
+}
