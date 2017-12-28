@@ -96,7 +96,7 @@ p {
 #header #menu ul.menu li a {
 	display: flex;
 	margin-left: 20px;
-	padding-bottom: 5px;
+	padding: 5px 0px;
 }
 
 #header #menu ul.menu li.current-menu-item a {
