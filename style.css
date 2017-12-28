@@ -96,6 +96,11 @@ p {
 #header #menu ul.menu li a {
 	display: flex;
 	margin-left: 20px;
+	padding-bottom: 5px;
+}
+
+#header #menu ul.menu li.current-menu-item a {
+	border-bottom: 1px solid #fff;
 }
 
 .row.items > div[class*="col-"] .img-wrap {
