@@ -101,7 +101,11 @@ p {
 	display: flex;
 	max-height: 200px;
 	overflow: hidden;
-	@media (max-width: 48em) {
+}
+
+
+@media (max-width: 48em) {
+	.row.items > div[class*="col-"] .img-wrap {
 		max-height: auto;
 	}
 }
