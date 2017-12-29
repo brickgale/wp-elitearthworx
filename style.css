@@ -28,7 +28,7 @@ body {
 	height: 100%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	line-height: 1.5em;
+	line-height: 1.8em;
 	color: #292929;
 	background-color: #f3f3f3;
 	margin: 0;
@@ -110,6 +110,10 @@ p {
 	overflow: hidden;
 }
 
+.row.items > div[class*="col-"] h3 {
+	margin: 0;
+	padding-top: 10px;
+}
 
 @media (max-width: 48em) {
 	.row.items > div[class*="col-"] .img-wrap {
