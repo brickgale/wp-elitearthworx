@@ -12,7 +12,7 @@
 		<header id="header" role="banner">
 			<div class="header-con">
 				<div class="row bottom-xs bottom-sm">
-					<section id="branding" class="col-xs-12 col-sm-4">
+					<section id="branding" class="col-xs-12 col-sm-6">
 						<div id="site-title">
 							
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home" class="site-title"
@@ -29,7 +29,7 @@
 						</div>
 					</section>
 
-					<nav id="menu" role="navigation" class="col-xs-12 col-sm-8">
+					<nav id="menu" role="navigation" class="col-xs-12 col-sm-6">
 						<!-- <div id="search">
 							<?php //get_search_form(); ?>
 						</div> -->
