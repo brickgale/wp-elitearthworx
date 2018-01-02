@@ -95,6 +95,10 @@ p {
 	width: 100%;
 }
 
+.header-con .site-title h1 {
+	margin: 0;
+}
+
 .header-con .site-title h1 span#site-description {
 	display: block;
     font-weight: normal;
@@ -104,7 +108,9 @@ p {
 }
 
 .header-con .site-logo {
-	max-width: 200px;
+	max-width: 80px;
+	float: left;
+	padding-right: 10px;
 }
 
 #header a {
