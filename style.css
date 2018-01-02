@@ -89,6 +89,10 @@ p {
 	padding: 35px 20px;
 }
 
+.header-con .site-logo {
+	max-width: 200px;
+}
+
 #header a {
 	color: inherit;
 }

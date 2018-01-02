@@ -17,8 +17,8 @@
 							
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"
 								>
+								<img src="<?php echo get_site_icon_url(); ?>" class="site-logo">
 								<h1>
-									<img src="<?php echo get_site_icon_url(); ?>" class="site-logo">
 									<?php echo esc_html( get_bloginfo( 'name' ) ); ?>		
 								</h1>
 							</a>
