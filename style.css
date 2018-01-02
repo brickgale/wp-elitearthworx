@@ -95,8 +95,12 @@ p {
 	width: 100%;
 }
 
-.header-con .site-title h1 span {
+.header-con .site-title h1 span#site-description {
 	display: block;
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: 5px;
+    text-transform: lowercase;
 }
 
 .header-con .site-logo {
