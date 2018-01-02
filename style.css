@@ -89,6 +89,16 @@ p {
 	padding: 35px 20px;
 }
 
+.header-con .site-title {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.header-con .site-title h1 span {
+	display: block;
+}
+
 .header-con .site-logo {
 	max-width: 200px;
 }
