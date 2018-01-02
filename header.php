@@ -15,7 +15,13 @@
 					<section id="branding" class="col-xs-12 col-sm-4">
 						<div id="site-title">
 							
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><h1><?php echo esc_html( get_bloginfo( 'name' ) ); ?></h1></a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"
+								>
+								<h1>
+									<?php echo get_site_icon_url(); ?>		
+									<?php echo esc_html( get_bloginfo( 'name' ) ); ?>		
+								</h1>
+							</a>
 
 						</div>
 						<div id="site-description">
