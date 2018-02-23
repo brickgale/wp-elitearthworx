@@ -79,8 +79,9 @@ p {
 
 #container {
 	display: flex;
+    flex-direction: column;
 	min-height: 75vh;
-	justify-content: center;
+    justify-content: baseline;
 }
 
 #header .header-con, #footer .footer-con, #container .page-con {
@@ -194,11 +195,6 @@ p {
     border-radius: 0;
     min-width: 220px;
     max-width: 100%;
-}
-
-.main-container {
-	display: flex;
-    flex-direction: column;
 }
 
 .banner-con {
