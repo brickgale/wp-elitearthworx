@@ -11,15 +11,25 @@
  *
  * @package elitearthworx
  */
-get_header(); ?>
+get_header(); 
+if ( have_posts() ) : while ( have_posts() ) : the_post(); 
+$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'thumbnail' ); ?>
+
+	<?php if(!empty($url)): ?>
+		<div class="banner-con">
+			<img src="<?php echo $url ?>" class="img-responsive" />
+		</div>
+	<?php endif; ?>
+
 	<section class="page-con" id="content" role="main">
-	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<section class="entry-content">
 				<?php the_content(); ?>
 				<div class="entry-links"><?php wp_link_pages(); ?></div>
 			</section>
 		</article>
-	<?php endwhile; endif; ?>
 	</section>
-<?php get_footer(); ?>
+
+<?php
+endwhile; endif;
+get_footer(); ?>
