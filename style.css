@@ -155,3 +155,42 @@ p {
 		width: auto;
 	}
 }
+
+.btn-con {
+	width: 100%;
+	padding: 4em 0;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.btn-con .btn {
+	margin-left: .25rem;
+	margin-right: .25rem;
+}
+
+.btn-con .btn {
+	margin-bottom: 10px;
+}
+
+.btn, input[type="button"] {
+	font-size: 13px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    user-select: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #2b2828;
+    padding: 18px 12px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    line-height: 1.4em;
+    border-radius: 0;
+    min-width: 220px;
+    max-width: 100%;
+}
