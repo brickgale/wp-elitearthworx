@@ -194,3 +194,12 @@ p {
     min-width: 220px;
     max-width: 100%;
 }
+
+.main-container {
+	display: flex;
+    flex-direction: column;
+}
+
+.banner-con {
+	width: 100%;
+}

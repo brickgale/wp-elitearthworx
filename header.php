@@ -39,4 +39,4 @@
 			</div>
 		</header>
 
-		<div id="container">
+		<div id="container" class="main-container">
